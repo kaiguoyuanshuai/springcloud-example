@@ -27,6 +27,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.zcoco.springcloud.example</groupId>
             <artifactId>springcloud-example-api</artifactId>
             <version>${project.version}</version>
